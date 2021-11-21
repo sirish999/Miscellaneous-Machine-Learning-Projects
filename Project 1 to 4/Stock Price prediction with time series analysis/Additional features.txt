@@ -1,0 +1,21 @@
+Additional features used:
+• In the project, you predict [Close] of a day based on the last 7 days’ data. Can you find the best
+N value (number of the days we should consider in the past) that yields the most accurate model? 
+--------->This additional feature is found in a seperate file called no_of_days
+
+
+• Can you use LSTM to predict the stock prices for a continuous future time period (e.g., the prices
+in the next five days)? Show the true prices and predicted prices in the same chart.
+--------->This additional feature is found in the main faile containing the 3 main features.( found at the very bottom)
+
+•In the shared Google drive folder, you can find the stock price for the following companies.
+o Royal Dutch Shell
+o Apple
+o Google
+o JPMorgan
+--------->This additional feature is found in a seperate files called RDS-B,AAPL,goog and JPM respectively
+
+Go to Yahoo! Finance. Then you can find the stock price historical data for more companies.
+-------->This additional feature is found in a seperate files called GOOG2
+
+

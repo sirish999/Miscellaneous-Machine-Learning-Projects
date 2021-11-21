@@ -1,0 +1,20 @@
+Additional features used:
+
+(1) Can you model this intrusion detection problem as a multi-class classification problem so
+that we can detect the type of each intrusion? How good such predictive model can be in
+this case?
+
+Answer: 
+We created a new model for intrusion detection by using column 'attack_cat' as a target column to perform multi class
+classification. Since the dataset was unblanaced we werent able achieve high F-1 score for this. The dataset requires downsampling
+by balancing the majority classes and minority classes with appropriate weights.
+
+(3) Among all the features, can you identify the most important features (this is so called feature
+importance analysis) and train models only on those important features, e.g., top-10 most
+important features? What would be the benefits to do that? 
+
+Answer: We used Extra Trees classifier to select 10 columns which have a strong relation with the target column(label). By having the list of these top 10 features we were able to assign these 10 features to x( as input features) and trained the model with only these 10 features.
+obtained F-1 was identical to the F-1 score in the case where all features were considered.
+
+
+
